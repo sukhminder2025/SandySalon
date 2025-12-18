@@ -99,7 +99,12 @@ const Slideshow: React.FC = () => {
               }}
             >
               <div className={styles.container}>
-               
+                {/* <div className={styles.marqueeWrapper} style={{paddingBottom:250}}>
+                  <p className={styles.marqueeText}
+                  style={{color:'red',fontSize:50}}
+                  >Reopening soon at Hollitt Street, Googong NSW.</p>
+                </div> */}
+            
 
                 <h1 className={styles.animatedTextLeft}>{restOfText}</h1>
                 <p className={styles.animatedTextRight}>{lastWord}</p>
